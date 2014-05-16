@@ -10,7 +10,7 @@ A custom dark UI theme for Sublime Text 2/3.
 
 This theme is based on the Spacegray UI theme modified to work with slightly more subtle Monokai colors.
 
-![image](Screenshots/MonokaiHaze.png)
+![image](Theme - MonokaiHaze/Screenshots/MonokaiHaze.png)
 
 ***
 
