@@ -9,13 +9,13 @@
         "class": "tabset_control",
         "layer0.texture": "",
         "layer0.tint": [30, 30, 30], // -00
-        "layer0.inner_margin": 0,
+        "layer0.inner_margin": [1, 6],
         "layer0.opacity": 1,
-        "content_margin": 0,
-        "tab_overlap": 0,
+        "content_margin": [-3, 0, -3, 0],
+        "tab_overlap": 5,
         "tab_width": 128,
         "tab_min_width": 48,
-        "tab_height": 28,
+        "tab_height": 36,
         "mouse_wheel_switch": false
     },
     {
@@ -50,7 +50,7 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [84, 200, 224] // 00
+        "layer0.tint": [39, 39, 39] // 00
     },
     // Tab dirty state (close button hidden)
     {
@@ -163,7 +163,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
-        "fg": [45, 45, 45] // 06
+        "fg": [84, 200, 204] // 06
     },
 
 //
@@ -227,7 +227,7 @@
     {
         "class": "puck_control",
         "layer0.texture": "",
-        "layer0.tint": [57, 57, 57],
+        "layer0.tint": [65, 65, 65],
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "content_margin": [6,0],
@@ -238,7 +238,7 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         // "layer0.texture": "",
-        "layer0.tint": [57, 57, 57], // 01
+        "layer0.tint": [65, 65, 65], // 01
         "layer0.inner_margin": [0,0],
         "content_margin": [12,6],
         "blur": false
@@ -374,10 +374,10 @@
     {
         "class": "tool_tip_control",
         // "layer0.texture": "",
-        "layer0.tint": [81, 81, 81], // 02
+        "layer0.tint": [35, 35, 35], // 02
         "layer0.inner_margin": [1,1],
         "layer0.opacity": 1,
-        "content_margin": [4,4]
+        "content_margin": [14,14]
     },
     // Tooltip content
     {
@@ -418,7 +418,7 @@
         "class": "sidebar_container",
         // "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [38, 38, 38], // -01
+        "layer0.tint": [39, 39, 39], // -01
         "layer0.inner_margin": [1,5,2,1],
         "content_margin": [0,4,0,0]
     },
@@ -435,7 +435,7 @@
     {
         "class": "tree_row",
         // "layer0.texture": "",
-        "layer0.tint": [84, 200, 224], // 01 [45, 45, 45]
+        "layer0.tint": [35, 35, 35], // 01 [45, 45, 45]
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -483,7 +483,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [45, 45, 45] // 06
+        "color": [84, 200, 224] // 06
     },
 
 //
@@ -626,7 +626,7 @@
         "min_size": [64,0],
         "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [38, 38, 38], // -00
+        "layer0.tint": [39, 39, 39], // -00
         "layer0.inner_margin": [8,8]
     },
     // Hover button state
@@ -674,7 +674,7 @@
         "class": "overlay_control",
         "layer0.opacity": 1,
         "layer1.texture": "",
-        "layer1.tint": [57, 57, 57], // 01
+        "layer1.tint": [45, 45, 45], // 01
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
         "content_margin": 0
@@ -687,14 +687,14 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [57, 57, 57],
+        "layer0.tint": [45, 45, 45],
         "layer0.opacity": 1,
         "dark_content": true
     },
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [57, 57, 57], // 01
+        "layer0.tint": [45, 45, 45], // 01
         "layer0.inner_margin": 8,
         "layer0.opacity": 1
     },
@@ -702,26 +702,26 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [38, 38, 38] // -01
+        "layer0.tint": [39, 39, 39] // -01
     },
     {
         "class": "quick_panel_label",
         "fg": [160, 160, 160, 255], // 04
         "match_fg": [211, 211, 211, 255], // 05
-        "selected_fg": [211, 211, 211, 255], // 05
-        "selected_match_fg": [242, 242, 242, 255] // 07
+        "selected_fg": [84, 200, 224, 255], // 05
+        "selected_match_fg": [84, 200, 224, 255] // 07
     },
     {
         "class": "quick_panel_path_label",
         "fg": [116, 116, 116, 255], // 03
         "match_fg": [160, 160, 160, 255], // 04
-        "selected_fg": [116, 116, 116, 255], // 03
-        "selected_match_fg": [160, 160, 160, 255] // 04
+        "selected_fg": [84, 200, 224, 255], // 03
+        "selected_match_fg": [84, 200, 224, 255] // 04
     },
     {
         "class": "quick_panel_score_label",
         "fg": [116, 116, 116, 255], // 03
-        "selected_fg": [105, 105, 105, 255] // 03
+        "selected_fg": [84, 200, 224, 255] // 03
     },
 
 //
@@ -731,14 +731,14 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [57, 57, 57], // 01
+        "layer0.tint": [45, 45, 45], // 01
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [38, 38, 38] // -01
+        "layer0.tint": [39, 39, 39] // -01
     },
 
 //
@@ -748,7 +748,7 @@
     {
         "class": "popup_control",
         "content_margin": [0,0],
-        "layer0.tint": [57, 57, 57], // 01
+        "layer0.tint": [45, 45, 45], // 01
         "layer0.opacity": 1
     },
     {
@@ -759,8 +759,8 @@
         "class": "auto_complete_label",
         "fg": [116, 116, 116, 255], // 03
         "match_fg": [211, 211, 211, 255], // 05
-        "selected_fg": [116, 116, 116, 255], // 03
-        "selected_match_fg": [211, 211, 211, 255] // 05
+        "selected_fg": [84, 200, 224, 255], // 03
+        "selected_match_fg": [84, 200, 224, 255] // 05
     },
     {
         "class": "table_row",

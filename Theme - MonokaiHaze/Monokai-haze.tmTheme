@@ -10,15 +10,15 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#222222</string>
+                <string>#272727</string>
                 <key>caret</key>
-                <string>#F8F8F0</string> <!-- #F8F8F0 -->
+                <string>#F8F8F0</string>
                 <key>foreground</key>
-                <string>#cbcbc7</string> <!-- #F8F8F2 -->
+                <string>#cbcbc7</string>
                 <key>invisibles</key>
                 <string>#3B3A32</string>
                 <key>lineHighlight</key>
-                <string>#2d2d2d</string> <!-- #333333 -->
+                <string>#2d2d2d</string>
                 <key>selection</key>
                 <string>#444444</string>
                 <key>findHighlight</key>
@@ -48,7 +48,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#e0d984</string> <!-- #E6DB74 -->
+                <string>#e0d984</string>
             </dict>
         </dict>
         <dict>
@@ -59,7 +59,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#9862f7</string> <!-- AE81FF -->
+                <string>#9862f7</string>
             </dict>
         </dict>
         <dict>
@@ -70,7 +70,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#9862f7</string> <!-- #AE81FF -->
+                <string>#9862f7</string>
             </dict>
         </dict>
         <dict>
@@ -103,7 +103,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#d92f6d</string> <!-- #F92672 -->
+                <string>#d92f6d</string>
             </dict>
         </dict>
         <dict>
@@ -207,7 +207,7 @@
                 <key>fontStyle</key>
                 <string />
                 <key>foreground</key>
-                <string>#91d622</string> <!-- #A6E22E -->
+                <string>#91d622</string>
             </dict>
         </dict>
         <dict>
